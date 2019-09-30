@@ -1,4 +1,4 @@
-###### This account is for potential employers only.
+###### This account is for potential employers only. Potential employers are welcome to request one game key from boldbrushgames@gmail.com via their company's email address, with which they can try out the game on Steam (for Windows OS) at no cost.
 <p align="center">
 <img src=/images/library_logo.png>
 </p>
@@ -18,7 +18,7 @@ _Affinity_ is a relaxing puzzle game with a minimalist aesthetic. Players piece 
 
 ### Game / Project Features
 * Scenes transition automatically with a fade in / fade out.
-* Game functions in a syncronized multi-scene environment.
+* Game functions in a synchronized multi-scene environment.
 * Sound management system plays instrument chords via factory pattern. Played when pieces are placed where they belong.
 * Sound effects trigger with a cycling randomized series of tones that never play more than once per cycle.
 * Pieces have lift and lean when moved, simulating being lifted and moved from a tabletop.
@@ -29,15 +29,16 @@ _Affinity_ is a relaxing puzzle game with a minimalist aesthetic. Players piece 
 * The player can select which level they want to start from after starting a new game.
 * Pieces automatically layer atop one another based on when they were moved.
 * Pieces dropped beyond the scope of the viewport are automatically shifted back into the play area.
-* Pieces remain grayscaled until the player places them where they belong.
+* Pieces remain grayscale until the player places them where they belong.
 * Save/Load
 
 ## 1.1 Code Contributions by Nathan Grimes
-A scene manager acts as the primary entry point for the program. It including all sound systems, foreground fade-in/fade-out systems, and scene management systems. The `SceneController.cs` script is built with modularity to allow any other script or unity component extend its functionality. If a specific scene needs to be loaded, a scene name can be provided, otherwise it loads game levels incrementally by scene name "Level" + level value. The scene manager loads and unloads other scenes that run simultaneously, these scenes are built to communicate requests across this multi-scene environment.
+A scene manager acts as the primary entry point for the program. It includes all sound systems, foreground fade-in/fade-out systems, and scene management systems. The `SceneController.cs` script is built with modularity to allow any other script or unity component extend its functionality. If a specific scene needs to be loaded, a scene name can be provided, otherwise it loads game levels incrementally by scene name "Level" + level value. The scene manager loads and unloads other scenes that run simultaneously, these scenes are built to communicate requests across this multi-scene environment.
 
 The `SoundFactory.cs` script uses the factory design pattern to play the instrumental tones triggered by a player moving a piece or placing a piece in the correct location. A cycling randomized list with logic that asserts unique tones guarantees that the player will hear a different tone each time they trigger one.
 
-When pieces are moved, they lean in a smooth motion based on the direction they moved relative to where they started, as shown in the `PuzzlePiece.cs` script. Puzzle pieces also store their neighbors during the level design process by searching for points on neighboring colliders, the game uses these neighbors to allow the player to join pieces together before setting the combined pieces where the belong, as shwon in the gif above.
+When pieces are moved, they lean in a smooth motion based on the direction they moved relative to where they started, as shown in the `PuzzlePiece.cs` script. Puzzle pieces also store their neighbors during the level design process by searching for points on neighboring colliders, the game uses these neighbors to allow the player to join pieces together before setting the combined pieces where the belong, as shown in the gif above.
 
 ## 1.2 Code Contributions by Hunter Duzac
 Coming soon...
+
