@@ -10,6 +10,6 @@
 _Affinity_ is a relaxing puzzle game with a minimalist aesthetic. Players piece together handmade jigsaw puzzles.
 
 <p align="center">
-<img src=/images/Screenshot (129).png>
-<img src=/images/Screenshot (98).png>
+<img src=/images/image1.png>
+<img src=/images/image2.png>
 </p>
