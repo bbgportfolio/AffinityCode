@@ -9,7 +9,7 @@
 1.2 Contributions by Hunter Duzac
 
 ### About
-_Affinity_ is a relaxing puzzle game with a minimalist aesthetic. Players piece together handmade jigsaw puzzles.
+_Affinity_ is a relaxing puzzle game with a minimalist aesthetic. Players piece together handmade jigsaw puzzles while listening to soothing music produced by their playing and the background theme.
 
 <p align="center">
 <img src=/images/image1.png>
@@ -17,4 +17,14 @@ _Affinity_ is a relaxing puzzle game with a minimalist aesthetic. Players piece 
 </p>
 
 ### Features
+* Scenes transition automatically with a fade in / fade out.
+* Game functions in a syncronized multi-scene environment.
+* Sound management system plays instrument chords via factory pattern. Played when pieces are placed where they belong.
+* Sound effects trigger with a cycling randomized series of tones that never play more than once per cycle.
+* Pieces have lift and lean when moved, simulating being lifted and moved from a tabletop.
+* Piece together parts of the puzzle before putting them where they belong.
+![Join pieces together, then place them!](/images/image3.gif)
+
+* Save/Load
+* Automated asset management during level design process streamlined level creation.
 * 
