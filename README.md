@@ -33,7 +33,7 @@ _Affinity_ is a relaxing puzzle game with a minimalist aesthetic. Players piece 
 * Save/Load
 
 ## 1.1 Code Contributions by Nathan Grimes
-A scene manager acts as the primary entry point for the program. It includes all sound systems, foreground fade-in/fade-out systems, and scene management systems. The `SceneController.cs` script is built with modularity to allow any other script or unity component extend its functionality. If a specific scene needs to be loaded, a scene name can be provided, otherwise it loads game levels incrementally by scene name "Level" + level value. The scene manager loads and unloads other scenes that run simultaneously, these scenes are built to communicate requests across this multi-scene environment.
+A scene manager acts as the primary entry point for the program. It includes all sound systems, foreground fade-in/fade-out systems, and scene management systems. The `SceneController.cs` script is built with modularity to allow any other script or unity component extend its functionality. If a specific scene needs to be loaded, a scene name can be provided, otherwise it automatically loads game levels incrementally by scene name "Level" + level value. The scene manager loads and unloads other scenes that run simultaneously, these scenes are built to communicate requests across this multi-scene environment.
 
 The `SoundFactory.cs` script uses the factory design pattern to play the instrumental tones triggered by a player moving a piece or placing a piece in the correct location. A cycling randomized list with logic that asserts unique tones guarantees that the player will hear a different tone each time they trigger one.
 
