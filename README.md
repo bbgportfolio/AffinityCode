@@ -5,7 +5,9 @@
 
 ## Contents
 1.0 About
+
 1.1 Contributions by Nathan Grimes
+
 1.2 Contributions by Hunter Duzac
 
 ### About
