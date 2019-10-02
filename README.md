@@ -1,5 +1,5 @@
 ###### This account is for potential employers.
-###### Potential employers are welcome to request game keys from boldbrushgames@gmail.com via their company's email address, with which they can try out the game on [Steam (for Windows OS)](https://store.steampowered.com/app/1128610/Affinity/) at no cost.
+###### Potential employers are welcome to request game keys from boldbrushgames@gmail.com via their company's email address, with which they can try out the game on [Steam (for Windows OS)](https://store.steampowered.com/app/1128610/Affinity/) for free.
 <p align="center">
 <img src=/images/library_logo.png>
 </p>
